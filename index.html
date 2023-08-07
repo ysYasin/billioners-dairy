@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awsome link  -->
+    <script src="https://kit.fontawesome.com/dbd74cafef.js" crossorigin="anonymous"></script>
+
+    <title>Billionier</title>
+</head>
+
+<body>
+    <main>
+        <aside class="aside">
+            <div class="logo">
+                <img src="images/logo/logo.svg" alt="logo">
+            </div>
+            <div class="filter-money">
+                <button id="Industry">Industry </button>
+                <button id="state">State </button>
+                <button id="Age">Age or gander </button>
+            </div>
+        </aside>
+        <section class="body">
+            <header>
+                <div class="search">
+                    <input id="searchField" type="text" placeholder="first, click a button from write tab">
+                    <p id="eroorText" style="color:red" class="erorrText">search a valid word</p>
+                    <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="logo1">
+                    <img src="images/logo/logo1.svg" alt="">
+                </div>
+            </header>
+            <hr>
+            <section class="mainSection">
+                <section class="section-head">
+                    <h1 id="">Richest By <span id="rechest">Industries</span></h1>
+                    <h3> ( <span id="chatagory"> thacnology</span> )</h3>
+                </section>
+                <section>
+                    <div class="d-none errorWorning" id="errorWorning">
+                        <h1>404 Erorr </h1>
+                        <h3>Result not found</h3>
+                        <h4>Search a valied value</h4>
+                    </div>
+                    <section class="rechest-person-holder" id="rechest-person-holder">
+
+                    </section>
+                </section>
+                <section class="loadMire-btn">
+                    <button class="d-none" id="loadMoreBtn">Load More</button>
+                </section>
+            </section>
+        </section>
+
+    </main>
+
+
+
+    <!-- js file linking  -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

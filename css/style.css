@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    /* gap: 1rem; */
+}
+
+.aside {
+    width: 20dvw;
+    background: #000;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    height: 100dvh;
+    position: fixed;
+}
+
+.filter-money {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logo img {
+    width: 50%;
+    margin: auto;
+
+}
+
+.filter-money button {
+    color: black;
+    background: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.filter-money button:hover {
+    color: #040e28;
+    background: antiquewhite;
+}
+
+.body {
+    width: 100%;
+    margin-left: 20%;
+}
+
+.search {
+    margin-bottom: 1rem;
+}
+
+header {
+    padding-bottom: 0px !important;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    transition: all 0.3s ease-in;
+    padding-left: 1rem;
+}
+
+.erorrText {
+    display: none;
+}
+
+
+header input:focus {
+    border-bottom: 1px solid silver;
+}
+
+header button {
+    position: absolute;
+    left: 290px;
+    top: 23px;
+    cursor: pointer;
+    background: none;
+    color: #ff7315;
+    border: none;
+    outline: none;
+}
+
+.logo1 img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4rem;
+}
+
+.section-head {
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.section-head h1 {
+    font-size: 3rem;
+}
+
+.rechest-person-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5rem;
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+.card-box {
+    color: #fff;
+    padding: 1rem;
+    align-items: center;
+    background: #0E1B34;
+    box-shadow: 10px 10px 10px rgba(33, 41, 48, 0.1)
+}
+
+#cardtitle {
+    text-align: center;
+    font-size: 2rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 6px rgb(202, 202, 202);
+}
+
+.card {
+    /* padding: 1rem; */
+    display: flex;
+    gap: .5rem;
+}
+
+.card-body {
+    border-left: 3px solid rgb(148, 146, 146);
+    padding-left: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    justify-content: center;
+}
+
+.errorWorning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #767676;
+    margin-top: 15%;
+    text-transform: uppercase;
+}
+
+.d-none {
+    display: none;
+}
+
+#errorWorning h1 {
+    font-size: 5rem;
+    font-weight: 500;
+
+}
+
+.loadMire-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#loadMoreBtn {
+    padding: .5rem 1.5rem;
+    background: #ff7402;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#loloadMoreBtn:hover {
+    background: #c95004;
+    color: aliceblue;
+}
